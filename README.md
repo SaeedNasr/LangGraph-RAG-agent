@@ -39,12 +39,18 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 ```
-3. Install the required dependencies:
+**3. Install the required dependencies:**
 
 ```bash
 pip install langchain langgraph langchain-openai langchain-chroma langchain-community langchain-text-splitters pypdf python-dotenv
 ```
-4. Set up your environment variables:
+OR  pip install list to this beautifully simple command:
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Set up your environment variables:**
 Create a file named exactly .env in the root folder of the project and add your OpenAI API key:
 
 Plaintext
